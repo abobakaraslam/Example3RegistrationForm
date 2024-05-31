@@ -3,7 +3,7 @@ import React from "react";
 import { useState } from "react";
 
 function Register() {
-  //initializing and setting values for email input
+  //initializing and setting values for name input
   const [name, setName] = useState(""); //initialize name with null value
   const onChangeHandleName = (event) => {
     //name of variable "event" can be changed
